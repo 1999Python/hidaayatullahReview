@@ -77,13 +77,13 @@ body {
     margin: 2em 0; /* Adjust the top and bottom margin */
     padding: 10px;
     width: 650px;
-    height: 600px;
+    height: 700px;
     margin: 2em;
     padding: 10px;
     background-image: linear-gradient(rgb(93, 93, 238), rgba(44, 42, 42, 0.521));
     font-size: 0.9em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #000;
+    color: #f8f5f5;
     font-weight: 900;
 }
 
@@ -93,7 +93,7 @@ body {
     }
 
     #message {
-        width: 90%; /* Reduce the width for smaller screens */
+        width: 350px; /* Reduce the width for smaller screens */
         font-size: 0.8em; /* Adjust font size for smaller screens */
     }
 }
