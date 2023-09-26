@@ -72,6 +72,10 @@ body {
     scale: 0.7;
 }
 #message {
+    max-width: 100%; /* Ensure the message div doesn't overflow */
+    width: 100%;
+    margin: 2em 0; /* Adjust the top and bottom margin */
+    padding: 10px;
     width: 650px;
     height: 600px;
     margin: 2em;
@@ -81,4 +85,15 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #000;
     font-weight: 900;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: cover; /* Adjust background size for smaller screens */
+    }
+
+    #message {
+        width: 90%; /* Reduce the width for smaller screens */
+        font-size: 0.8em; /* Adjust font size for smaller screens */
+    }
 }
